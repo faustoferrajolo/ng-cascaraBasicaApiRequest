@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { PeliculaComponent } from './pelicula/pelicula.component';
-import { BuscarComponentComponent } from './buscar-component/buscar-component.component';
+import { BuscarComponent } from './buscar/buscar.component';
 
 
 
@@ -10,7 +10,8 @@ import { BuscarComponentComponent } from './buscar-component/buscar-component.co
   declarations: [
     HomeComponent,
     PeliculaComponent,
-    BuscarComponentComponent
+    BuscarComponent,
+
   ],
   imports: [
     CommonModule
